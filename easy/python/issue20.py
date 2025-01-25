@@ -9,7 +9,7 @@ def largest_number(mylist):
     larg = 0 
     x = 0
     for i in my_list:
-        if i != 40 and my_list[x+1] != 40:
+        if my_list[x+1] != 40:
             if my_list[x] > my_list[x+1]:
                 larg = my_list[x]
             else:
