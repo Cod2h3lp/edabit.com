@@ -22,6 +22,6 @@ void count_vowels(char *str) {
     cout << count << endl; 
 }
 int main() {
-    count_vowels("felipe"); 
+    count_vowels("mathew"); 
 return 0; 
 }
